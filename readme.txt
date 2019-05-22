@@ -1,0 +1,5 @@
+hystrix的實例工程
+調用了本工程的server包中提供的服務
+調用客戶端在本工程的client包中
+當first-hy-server中的某個服務提供接口的響應時間超過一定時長
+則hystrix會自動調用回退方法。
